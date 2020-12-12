@@ -1,0 +1,11 @@
+name: PingNotifier
+version: ${project.version}
+main: com.thethingyee.pingnotifier.PingNotifier
+api-version: 1.13
+
+commands:
+  pingnotifier:
+    aliases: [pn]
+    description: Sets the maximum ping and notify the player when it exceeded at that point.
+    usage: /<command>
+
